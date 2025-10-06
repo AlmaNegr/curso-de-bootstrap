@@ -45,3 +45,32 @@ header .apres h1 {
 header .apres p {
     color: #504C4C;
 }
+
+.post {
+    display: grid;
+    width: 100%;
+    min-height: 100%;
+    padding: 20px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+    column-gap: 30px;
+}
+
+.post h2 {
+    margin-bottom: 10px;
+}
+
+.post .post01 p {
+    font-size: 1rem;
+    font-weight: 400;
+    margin-bottom: 10px
+}
+
+.post .post01 button {
+    border: none;
+    padding: 10px;
+    border-radius: 3px;
+    background: rgb(111, 148, 248);
+    color: white;
+    cursor: pointer;
+}
